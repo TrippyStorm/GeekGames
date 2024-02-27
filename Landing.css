@@ -1,0 +1,143 @@
+/* General styles */
+
+body {
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  background-image: url(https://img.freepik.com/free-vector/gray-line-drawings-organic-shapes-background_1409-3947.jpg?w=826&t=st=1708121839~exp=1708122439~hmac=1ebb7cc98cccf420eed2418fe0331a534523da0a6f7e26e262ecd4bed6eae79e);
+}
+
+header {
+  background-color:#000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.thegeek {
+    font-family: "Inconsolata", monospace;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color:rgb(134, 114, 0);
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition for smooth effect */
+}
+
+nav ul li a:hover {
+  color: rgb(189, 188, 188);
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+#banner {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#banner h2 {
+  margin: 0;
+}
+
+#banner p {
+  margin: 20px 0;
+}
+
+#startButton {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(134, 114, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: #555;
+}
+
+#games {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.game-card {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.despace{
+    background-color: e6d9d9c4;
+    width: 100%;
+}
+
+.game-card img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  font-family: "Inconsolata", monospace;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .game-card {
+    margin: 0 10px;
+  }
+
+  #banner {
+    padding: 30px 0;
+  }
+
+  #startButton {
+    padding: 8px 16px;
+  }
+
+  #games {
+    padding: 30px 0;
+  }
+
+  .game-card img {
+    width: 150px;
+    height: 120px;
+  }
+}

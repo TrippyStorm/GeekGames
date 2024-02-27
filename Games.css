@@ -1,0 +1,93 @@
+body {
+  font-family: "Inconsolata", monospace;
+  background-image: url(https://img.freepik.com/free-vector/gray-line-drawings-organic-shapes-background_1409-3947.jpg?w=826&t=st=1708121839~exp=1708122439~hmac=1ebb7cc98cccf420eed2418fe0331a534523da0a6f7e26e262ecd4bed6eae79e);
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color:#000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.thegeek {
+    font-family: "Inconsolata", monospace;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color:rgb(134, 114, 0);
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition for smooth effect */
+}
+
+nav ul li a:hover {
+  color: rgb(189, 188, 188);
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.game img {
+  max-width: 100%;
+}
+
+.game h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.PlaNow {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+}
+
+.PlayNow:hover {
+    background-color: #7a792c;
+
+}
+
+
+
+
